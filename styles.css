@@ -1,0 +1,52 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+.my-icon {
+  height: 45px;
+  width: 45px;
+}
+@media screen and (max-width: 526px) {
+  .main-bg {
+    background-image: url("mountains.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 300px;
+    width: 100vw;
+  }
+  .main-cover {
+    background: rgba(0, 0, 0, 0.5);
+    height: 300px;
+    width: 100vw;
+  }
+}
+@media screen and (min-width: 527px) {
+  .main-bg {
+    background-image: url("mountains.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 500px;
+    width: 100vw;
+  }
+  .main-cover {
+    background: rgba(0, 0, 0, 0.5);
+    height: 500px;
+    width: 100vw;
+  }
+}
+
+hr {
+  height: 1px;
+  background-color: white;
+}
+.realbank {
+  height: 360px;
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
