@@ -21,9 +21,8 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="styles.css">
-
+    <script src="https://kit.fontawesome.com/68f8809237.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -36,8 +35,8 @@
     <main class="container-fluid p-0">
         <div class="main-bg">
             <div class="main-cover">
-                <div class="row ">
-                    <div class="col-8 mx-auto text-light text-center mt-5 pt-3">
+                <div class="row nameRow" >
+                    <div class="name">
                         <h1>Spenser Davies</h1>
                         <hr>
                         <h3>Full-Stack Developer</h3>
@@ -56,20 +55,29 @@
             </div>
         </div>
         <div class="row justify-content-around">
-            <div class="card shadow offset-md-1 col-10 mx-auto mb-2 col-md-4 mx-md-2 mb-md-5" style="width: 30rem;">
-                <img src="realbank.PNG" class="card-img-top mt-3" alt="...">
+            <div class="card shadow offset-md-1 col-10 mx-auto mb-2 col-md-4 mx-md-2 mb-md-5 realbankCard" style="width: 30rem;">
+                <a href="http://spenserdavies.com/realbank.PNG"><img src="realbank.PNG" class="card-img-top mt-3" alt="..."></a>
                 <div class="card-body">
                     <p class="card-text">
                         <b>RealBank</b>
                     </p>
                     <small class="card-text">A Banking Application built using Vue.js, C#, and MySQL.</small><br>
                     <small class="card-text">Allows users to keep track of accounts and transactions</small><br>
-                    <a href="https://realbank.herokuapp.com/" target="_blank" class="btn btn-primary mt-2">Click Here to Demo</a>
-                    <a href="https://youtu.be/iR-UwghcjoI" target="_blank" class="btn btn-success mt-2 float-right">Watch Demo</a>
+                    <div class="row buttonRow mt-5">
+                        <div class="col-6">
+                            <a href="https://realbank.herokuapp.com/" target="_blank" class="btn btn-primary mt-2">Demo</a>
+
+                        </div>
+                        
+                        <div class="col-6 text-right">
+                            <a href="https://youtu.be/iR-UwghcjoI" target="_blank" class="btn btn-success mt-2 float-right">Watch Demo</a>
+
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="card shadow offset-md-3 col-10 mx-auto mb-2 col-md-4 mx-md-2 mb-md-5" style="width: 30rem;">
-                <img src="bookworm.PNG" class="card-img-top mt-3" alt="...">
+                <a href="http://spenserdavies.com/bookworm.PNG"><img src="bookworm.PNG" class="card-img-top mt-3" alt="..."></a>
                 <div class="card-body">
                     <p class="card-text">
                         <b>Bookworm</b>
@@ -77,29 +85,29 @@
                     <small class="card-text">An Inventory Management System built using Vue.js and Node.js</small><br>
                     <small class="card-text">Search The Google Books API to update your store's inventory through
                         ordering and selling</small><br>
-                    <a href="https://bookworm-2020.herokuapp.com/" target="_blank" class="btn btn-primary mt-2">Click Here to Demo</a>
+                    <a href="https://bookworm-2020.herokuapp.com/" target="_blank" class="btn btn-primary mt-2">Demo</a>
                 </div>
             </div>
             <div class="card shadow offset-md-3 col-10 mx-auto mb-2 col-md-4 mx-md-2 mb-md-5" style="width: 30rem;">
-                <img src="keepr.PNG" class="card-img-top mt-3" alt="...">
+                <a href="http://spenserdavies.com/keepr.PNG"><img src="keepr.PNG" class="card-img-top mt-3" alt="..."></a>
                 <div class="card-body">
                     <p class="card-text">
                         <b>Keepr</b>
                     </p>
                     <small class="card-text">A Pintrest clone built using Vue.js, C#, and MySQL</small><br>
                     <small class="card-text">Post and save images to private collections</small><br>
-                    <a href="https://keepr-2020.herokuapp.com/" target="_blank" class="btn btn-primary mt-2">Click Here to Demo</a>
+                    <a href="https://keepr-2020.herokuapp.com/" target="_blank" class="btn btn-primary mt-2">Demo</a>
                 </div>
             </div>
             <div class="card shadow offset-md-3 col-10 mx-auto mb-2 col-md-4 mx-md-2 mb-md-5" style="width: 30rem;">
-                <img src="buglog.PNG" class="card-img-top mt-3" alt="...">
+                <a href="http://spenserdavies.com/buglog.PNG"><img src="buglog.PNG" class="card-img-top mt-3" alt="..."></a>
                 <div class="card-body">
                     <p class="card-text">
                         <b>BugLog</b>
                     </p>
                     <small class="card-text">A bug logger built using Vue.js and Node.js</small><br>
                     <small class="card-text">Post and save images to private collections</small><br>
-                    <a href="https://buglog-2020.herokuapp.com/" target="_blank" class="btn btn-primary mt-2">Click Here to Demo</a>
+                    <a href="https://buglog-2020.herokuapp.com/" target="_blank" class="btn btn-primary mt-2">Demo</a>
                 </div>
             </div>
         </div>
@@ -108,7 +116,10 @@
             <div class="col-10 mx-auto text-center">
                 <h4>My Skills</h4>
             </div>
-            <div class="col-3 mx-auto">
+        </div>
+        <div class="row justify-content-around align-items-stretch">
+
+            <div class="">
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
@@ -116,28 +127,32 @@
                     <li>Bootstrap</li>
                     <li>Vue.js</li>
                     <li>GitHub</li>
+                    <li>Amazon Web Services</li>
+                    <li>React</li>
                 </ul>
             </div>
-            <div class="col-4 mx-auto">
+            <div class="">
                 <ul>
                     <li>Node.js</li>
                     <li>MongoDB</li>
                     <li>C#</li>
                     <li>MySQL</li>
-                    <li>Heroku / Docker</li>
+                    <li>Heroku</li>
+                    <li>Docker</li>
                     <li>Figma</li>
+                    <li>React Native</li>
                 </ul>
             </div>
         </div>
         <hr>
         <div class="row mt-5 mb-3">
             <div class="col-6 mx-auto text-center">
-                <a href="http://github.com/spenserdavies" target="_blank" class="text-dark">My GitHub</a>
+                <a href="http://github.com/spenserdavies" target="_blank" class="text-dark"><button class="btn btn-primary shadow"><i class="fab fa-github-alt mr-2"></i>My GitHub</button></a>
             </div>
         </div>
         <div class="row mt-3 mb-5">
             <div class="col-6 mx-auto text-center">
-                <a href="https://www.linkedin.com/in/spenser-davies/" target="_blank" class="text-dark">My LinkedIn</a>
+                <a href="https://www.linkedin.com/in/spenser-davies/" target="_blank" class="text-dark"><button class="btn btn-primary shadow"><i class="fab fa-linkedin mr-2"></i>My LinkedIn</button></a>
             </div>
         </div>
     </main>
