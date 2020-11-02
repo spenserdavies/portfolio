@@ -80,7 +80,7 @@ body {
   display: flex;
   flex-grow: 1;
   flex-direction: column;
-  font-family: "VT323", monospace;
+  /* font-family: "VT323", monospace; */
 }
 .blog-font {
   font-family: "VT323", monospace;
