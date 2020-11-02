@@ -71,3 +71,30 @@ body {
 .text-right {
   text-align: right;
 }
+
+.blog {
+  background-image: url("/clouds2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  font-family: "VT323", monospace;
+}
+.blog-font {
+  font-family: "VT323", monospace;
+}
+
+.world-icon {
+  height: 48px;
+  width: 48px;
+}
+
+.nothing-else {
+  font-size: 32px;
+}
+
+.left-travy {
+  transform: scaleX(-1);
+}
